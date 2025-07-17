@@ -48,7 +48,7 @@ button {
 
 .hero-section {
   background-color: #1f2937;
-  height: 700px;
+  height: 600px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -70,4 +70,35 @@ button {
 .hero-section p {
   font-size: 18px;
   color: #e5e7eb;
+}
+
+.info-section {
+  height: 400px;
+  padding: 50px;
+}
+
+.info-section .title {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.subtexts-container {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.subtext-items {
+  flex-wrap: wrap;
+  width: 250px;
+  text-align: center;
+  color: #635f5f;
+}
+
+.subtext-items img {
+  border: 5px solid #3882f6;
+  border-radius: 8px;
 }
